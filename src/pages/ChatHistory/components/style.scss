@@ -1,0 +1,46 @@
+.receiver{
+color:black;
+position:relative;
+ background:lightgray;  
+ width:fit-content;
+ padding:10px; 
+ border-radius:20px;
+ float: left;
+}
+.receiver::before{
+content:"";
+ position:absolute;
+ width:0px;
+ height:0px;
+ border: 10px solid;
+ border-color: transparent lightgray transparent transparent;
+ left:-17px;
+ top:10px;
+}
+.sender{
+color:black;
+position:relative;
+ background:#b1e2ff;
+ width:fit-content;
+ padding:10px; 
+ border-radius:20px;
+ float:right;
+}
+.sender::before{
+    content:"";
+    position:absolute;
+    width:0px;
+    height:0px;
+    border: 10px solid;
+    border-color: transparent transparent transparent #b1e2ff ;
+    right: -17px;
+    top:10px;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+// ::-webkit-scrollbar-thumb {
+//     background: transparent;
+// }

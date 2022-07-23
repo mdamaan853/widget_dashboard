@@ -1,0 +1,33 @@
+.card-even{
+    background-color: rgb(122, 111, 190)!important;
+    align-items: center;
+    position: relative;
+    font-size: 30px;
+    color:white;
+    height:150px !important;
+    width: 250px !important;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    // background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid #dee2e6;
+    border-radius: 20px !important;
+}
+
+.card-odd{
+    align-items: center;
+    position: relative;
+    font-size: 30px;
+    height:150px !important;
+    width: 250px !important;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    // background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid #dee2e6;
+    border-radius: 20px !important;
+}

@@ -1,0 +1,14 @@
+export const NEW_SERVICE_WINDOW = "NEW_SERVICE_WINDOW"
+export const SERVICE_NAME = "siteName"
+export const SERVICE_LINK_WITH_URL = "siteUrl"
+export const SERVIVE_LINKED_COMPANY = "companyId"
+export const SERVICE_APIKEY = "apiKey"
+export const SERVICE_TECH = "tech"
+export const SERVICE_DEV_MAIL = "devMail"
+export const SERVICE_TYPE = "serviceType"
+export const ALL_SERVICES = "allServices"
+export const AI_BOT_DEPENDENT_DATA = 'aibotData'
+export const AI_BOT_QUESTION_ANSWER_DATA_ALL_VERSIONS = 'questionAnswerData'
+export const QUESTION_ANSWER_VERSION = 'questionAnswerVersion'
+export const QADATA = "QADATA"
+export const UI_DATA="UIDATA"

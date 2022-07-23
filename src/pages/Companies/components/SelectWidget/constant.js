@@ -1,0 +1,1 @@
+export const ADD_NEW_COMAPNY = 'ADD_NEW_COMAPNY'

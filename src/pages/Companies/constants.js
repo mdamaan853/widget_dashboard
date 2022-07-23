@@ -1,0 +1,7 @@
+export const NEW_COMPANY_WINDOW = "NEW_COMPANY_WINDOW"
+export const COMPANY_NAME = "name"
+export const COMPANY_EMAIL = "email"
+export const COMPANY_ADDRESS = "address"
+export const COMPANY_WEBSITE = "website"
+export const COMPANY_ID = "_id"
+export const COMPANY_PHONE = "phoneNumber"
